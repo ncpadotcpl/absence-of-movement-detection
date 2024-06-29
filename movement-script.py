@@ -5,8 +5,8 @@ from win10toast import ToastNotifier
 from urllib.parse import quote
 
 # RTSP stream credentials
-username = "your_username"
-password = "your_password"
+username = "your_username" # Specify your username here
+password = "your_password" # Specify your password here
 ip_address = "your_ip_address"  # Specify your IP address here
 suffix = "/your_suffix"  # Specify your suffix here
 
