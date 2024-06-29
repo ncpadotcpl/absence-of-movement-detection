@@ -7,13 +7,15 @@ from urllib.parse import quote
 # RTSP stream credentials
 username = "your_username"
 password = "your_password"
+ip_address = "your_ip_address"  # Specify your IP address here
+suffix = "/your_suffix"  # Specify your suffix here
 
 # URL-encode the username and password
 encoded_username = quote(username)
 encoded_password = quote(password)
 
 # RTSP stream URL with encoded authentication (assuming the default port 554)
-rtsp_url = f"rtsp://{encoded_username}:{encoded_password}@IP_ADDRESS/stream2"
+rtsp_url = f"rtsp://{encoded_username}:{encoded_password}@{ip_address}{suffix}"
 
 # Initialize variables
 movement_detected = False
