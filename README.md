@@ -3,5 +3,5 @@
 - password: The password for the RTSP stream authentication.
 - rtsp_url: The RTSP stream URL, which incorporates the encoded username and password.
 
-If you are having issues with the accuracy in detecting once movement has stopped, it might be worth increasing this variable.
+If you are having issues it might be worth changing this variable.
 - no_movement_time_threshold: The time threshold (in seconds) for detecting no movement (10 seconds in the example).
