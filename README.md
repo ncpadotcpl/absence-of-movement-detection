@@ -14,6 +14,6 @@ This python script was developed to notify the user once a 3d print finished. Th
 
 **Be sure to install the requirements:**
 
-pip install opencv-python
-pip install numpy
-pip install win10toast
+- pip install opencv-python
+- pip install numpy
+- pip install win10toast
