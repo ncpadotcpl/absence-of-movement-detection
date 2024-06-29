@@ -1,3 +1,5 @@
+This python script was developed to notify the user once a 3d print finished. This code was produced using chatgpt.
+
 **The following are the variables which need to be changed:**
 
 username: The username for the RTSP stream authentication.
