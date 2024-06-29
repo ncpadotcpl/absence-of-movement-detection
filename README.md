@@ -10,3 +10,10 @@ This python script was developed to notify the user once a 3d print finished. Th
 **If you are having issues, it might be worth changing this variable:**
 
 - no_movement_time_threshold: The time threshold (in seconds) for detecting no movement (10 seconds in the example).
+
+
+**Be sure to install the requirements:**
+
+pip install opencv-python
+pip install numpy
+pip install win10toast
